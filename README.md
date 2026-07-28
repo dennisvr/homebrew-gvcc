@@ -1,7 +1,7 @@
 # homebrew-gvcc
 
-`gvcc` is the compiler for [Galvanized](https://github.com/dennisvr/galvanized),
-a language exploring different ways to handle memory management and nullability.
+`gvcc` is the compiler for Galvanized, a language exploring different ways to
+handle memory management and nullability.
 
 ## Install
 
