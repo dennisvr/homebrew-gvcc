@@ -12,17 +12,17 @@
 class Gvcc < Formula
   desc "Compiler for the Galvanized programming language"
   homepage "https://github.com/dennisvr/homebrew-gvcc"
-  version "0.7.0"
+  version "0.7.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.0/gvcc-0.7.0-arm64-apple-darwin.tar.gz"
-      sha256 "2c30bb41ec8af9f6c7fdd3d2bd333468f2adadd11b89245bd047f0645689f3c2"
+      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.1/gvcc-0.7.1-arm64-apple-darwin.tar.gz"
+      sha256 "5ca9dcea20abe663a3fc94f5885934fac770ffccd139cf76e38c4b4da7de0e32"
     end
     on_intel do
-      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.0/gvcc-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9ec2fdd4695466a89c9b978759c0c7a2850fe87fa1e491314dcb387ad97e68d9"
+      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.1/gvcc-0.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "977397a8829bb1d073d81382a69e7a4790ede8b9d2c97721500165399f33af59"
     end
   end
 
@@ -34,12 +34,12 @@ class Gvcc < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.0/gvcc-0.7.0-aarch64-linux.tar.gz"
-      sha256 "6bfc0678c753f64c3f1eba4060cd86e84b2fb5748f1d10a1dde2c2bd34bbfa80"
+      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.1/gvcc-0.7.1-aarch64-linux.tar.gz"
+      sha256 "20d8420904e00c024228aeb0117500a7de5670d4d1687782605a3c97177991f4"
     end
     on_intel do
-      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.0/gvcc-0.7.0-x86_64-linux.tar.gz"
-      sha256 "ca8534ca9894d570d058495105a5c70051ab1d45c86f4f21768dd3ba05fa151a"
+      url "https://github.com/dennisvr/homebrew-gvcc/releases/download/v0.7.1/gvcc-0.7.1-x86_64-linux.tar.gz"
+      sha256 "9ef5290fa96313e8607436730709a65e1035afe41b76676223a5a8c3865db20f"
     end
   end
 
